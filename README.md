@@ -15,7 +15,11 @@
       1）位置初始化（已实现，正态分布）
       2）半随机化运动策略：考虑真实情况，十字路口附近的行人虽然具体行动随机，但有一个概略的目标，即：至少有一次穿过人行横道到达对面的行动。基于此，我们在进行元胞位置的转移时，分三种情况执行不同的策略：a.当前元胞位置不在人行横道上，且从未横穿过人行横道，执行策略：增大该元胞向人行横道方向移动的概率。 b.当前元胞处于人行横道上，执行策略：直线前进随机大小的长度，直到到达另一侧街道。 c.当前元胞不在人行横道上，且已经至少穿过了一次马路，执行策略：使该元胞运动全随机。
    上述中的a策略保证了十字路口这一环境的真实性，即人们至少会有一次穿过马路，保证了行人在区域间的不断流动。b,c策略则在兼顾真实性（过马路时快速，直线通过）的同时，减小了由a策略造成的人流过于集中于人行横道的这一不良影响。
-   基于以上环境与策略，运行一次my_virus.m程序得到病毒传播过程如下（绿色点：健康人，蓝色点：携带者，红色点：感染者）：
+   基于以上环境与策略，运行一次my_virus.m程序得到病毒传播过程如下（截取部分过程，绿色点：健康人，蓝色点：携带者，红色点：感染者）：
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread1.png)
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread2.png)
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread3.png)
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread4.png)
      
 	
 	
