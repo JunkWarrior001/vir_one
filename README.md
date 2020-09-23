@@ -51,4 +51,10 @@
       我们选取了最终时刻的健康者人数，携带者人数，感染者人数，携带者峰值到来的时刻，携带者峰值大小这五个指标来观察采取防疫指标后病毒扩散的表现情况。我们从隔离前后的运行结果中各取若干组样本求取平均值，结果如上图所示。可以看到，平均健康者人数，隔离后远大于隔离前，平均感染者人数则远远小于隔离前。另外，从病毒携带者的峰值时间来看，隔离后也要迟与隔离前。综合这些表现说明，隔离这一措施一方面能够极大地减少一定区域内的感染者人数，另一方面，也能使病毒的扩散受到延迟。
       
       接下来是佩戴口罩法。显然，佩戴口罩只能在病毒感染人体之前起阻隔作用，我们将口罩的作用定量地等效为病毒感染的概率降低为一半，其他条件与无措施时一致，得到如下结果图：
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_data_kouzhao.png)
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_data_kouzhao2.png)
+![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_data_kouzhao3.png)
+
+      对比使用隔离方法的效果图，直观看来，口罩法在最终结果上改良似乎并不大，我们接下来进行各项指标的比对，如下表：
+      
 	
