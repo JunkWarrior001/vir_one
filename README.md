@@ -36,5 +36,9 @@
       我们对上述结论2进行进一步研究，针对两次传播过程，我们对随时间变化的感染者人数分别做中心差分，近似得到感染者人数对时间的导数曲线如下所示：
 ![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_chafen1.png)
 ![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_chafen2.png)
+
+      可以看出，感染者人数曲线的导数在形状上与其对应的携带者变化曲线相当，但时间上有延时，这部分延时即是由病毒在携带者身上潜伏的20个单位时间造成的。以上分析表明，在不精确的情形下，可以将无症状携带者数据作为依据，来估计有症状感染者的增长速度快慢。
+     
+      接下来，我们从隔离，佩戴口罩，保持社交距离三个方面出发，研究不同防疫措施对病毒扩散的抑制作用。
 	
 	
