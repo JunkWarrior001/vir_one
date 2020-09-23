@@ -23,6 +23,9 @@
 ![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread2.png)
 ![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread3.png)
 ![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/virus_spread4.png)
+
+      接下来，我们进行数据分析，我们记录下每个单位时间里，感染者，携带者，健康者的人数变化，任取两次传播过程的数据，绘制成曲线图，如下所示：
+      
      
 	
 	
