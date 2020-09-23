@@ -7,7 +7,7 @@
      1.仿真环境：
       1）划定区域：带有人行横道的十字路口。区域总面积为100*100单位面积，马路宽20单位，每一条人行横道均宽10单位。
       2）人群分布：初始情况下，被分为四块的人群均在各自区域内服从正态分布，马路上禁止行人通行，只能通过人行横道到达另一区域。
-![Image text](https://github.com/JunkWarrior001/vir_one/blob/master/init_people.png)
+![add image](https://github.com/JunkWarrior001/vir_one/blob/master/init_people.png)
      
      2.病毒传播规则：
       1）根据人受病毒的影响不同，将人分为健康人，病毒携带者（无症状），病毒感染者（有症状）三类。在初始情况下，随机生成一病毒感染者，其余人为健康人。
